@@ -13,7 +13,7 @@ import numpy as np
 # Create the file names
 main_url = 'https://transtats.bts.gov/PREZIP'
 stem = 'On_Time_On_Time_Performance'
-year = np.array(range(2000, 2016))
+year = np.array(range(2000, 2017))
 month = np.array(range(1,13))
 filetype = '.zip'
 
