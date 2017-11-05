@@ -11,7 +11,8 @@ In this project, we perform time series analysis on flight delay data provided b
 </p>
 
 
-# Getting started
+<b>Getting started</b>
+
 Data files can be downloaded from the BTS website directly.
 An example of how to get all the <a href = 'https://www.transtats.bts.gov/DatabaseInfo.asp?DB_ID=125'>On-Time Performance</a> tables is provided. 
 Although BTS has data for the different 
