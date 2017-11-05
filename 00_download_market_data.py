@@ -1,9 +1,10 @@
 # Download files
 # exec(open('00_download_market_data.py').read())
 
-# Source: https://stackoverflow.com/questions/8814813/saving-a-downloaded-zip-file-w-python
+# Source code template:
+# https://stackoverflow.com/questions/8814813/saving-a-downloaded-zip-file-w-python
 
-#zip_url = 'https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2017_1.zip'
+# Example: zip_url = 'https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2017_1.zip'
 
 import urllib.request, urllib.parse, urllib.error
 import numpy as np
@@ -12,7 +13,7 @@ import numpy as np
 main_url = 'https://transtats.bts.gov/PREZIP'
 stem = 'Origin_and_Destination_Survey_DB1BMarket'
 
-year = np.array(range(2000,2006))
+year = np.array(range(2000,2017))
 quarter = np.array(range(1,5))
 filetype = '.zip'
 
