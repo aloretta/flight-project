@@ -13,8 +13,10 @@ In this project, we perform time series analysis on flight delay data provided b
 
 # Getting started
 Data files can be downloaded from the BTS website directly.
-An example of how to get all the On-Time Performance tables is provided. 
-Although BTS has data for the different Tickets and Coupons, we mostly utilized the Market data, and the
+An example of how to get all the <a href = 'https://www.transtats.bts.gov/DatabaseInfo.asp?DB_ID=125'>On-Time Performance</a> tables is provided. 
+Although BTS has data for the different 
+<a href="https://www.transtats.bts.gov/tables.asp?db_id=125&DB_Name=Airline%20Origin%20and%20Destination%20Survey%20%28DB1B%29#">Tickets</a> and <a href="https://www.transtats.bts.gov/tables.asp?db_id=125&DB_Name=Airline%20Origin%20and%20Destination%20Survey%20%28DB1B%29#">Coupons</a>, we mostly utilized the 
+<a href="https://www.transtats.bts.gov/tables.asp?db_id=125&DB_Name=Airline%20Origin%20and%20Destination%20Survey%20%28DB1B%29#">Market</a> data, and the
 source code for getting those files is also included. 
 <ul>
   <li><code>00_download_ontime_data.py</code></li>
