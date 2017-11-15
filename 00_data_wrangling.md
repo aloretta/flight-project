@@ -61,7 +61,12 @@ We took a closer look at the lower percentiles for all fare data from 2000-2016 
 
 We decided to use a \$50 lower bound and \$70 upper bound (shown in the black dashed lines.) This analysis and re-processing of data files can be found in <code>01_mktfare_cutoffs.py</code>, which also includes how these figures were made.
 
-Outliers are also found in the On-Time Performance data, such as delays that have several hundred negative minutes, where negative indicates a flight left early. These are uncommon or possible errors, we think. However, in our analysis, we tend to count the whether a flight left on time or was delayed (positive value), so it would not affect our calculations later. Although the On-Time Performance tables were not further modified, it is important to keep this in mind later.
+Outliers are also found in the On-Time Performance data, such as delays that have several hundred negative minutes, where negative indicates a flight left early. 
+<center>
+<img src="figures/early_dep.png">
+</center>
+
+These are uncommon or possible errors, we think. It is reasonable, though, for some flights to leave early, depending on how quickly boarding is completed and what the air traffic or weather conditions may be like. We estimated that a reasonable lower bound may be up to 15 minutes early, which was the cutoff used in the above figure. (See <code>01_depdelay_cutoffs.py</code> for source code.) For our analysis, we tend to count whether a flight left on time or was delayed (positive integer), so it would not affect our calculations later. Although the On-Time Performance tables were not further modified, it is important to keep this in mind later.
 
 <b>E. Missing values.</b>
 
