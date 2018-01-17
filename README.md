@@ -22,7 +22,7 @@ source code for getting those files is also included.
 <ul>
   <li><code>00_download_ontime_data.py</code></li>
   <li><code>00_download_market_data.py</code></li>
-</li>
+</ul>
 
 <p>
 <b>Jupyter Notebooks</b>
