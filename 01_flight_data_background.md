@@ -173,4 +173,9 @@ The network of U.S. airports spans 135 airports and over 1300 unique routes, and
 
 Delays can be rather hard to predict, but some airline companies like Southwest Airlines and Frontier Airlines may be more prone to them. This partly depends on which routes they tend to frequent, however. Airline customer service may have some role that affect departure times, such as in their efficiency to check-in and board passengers, but these factors are in these data tables. It is more likely that local weather at an airport or the amount of air traffic per day are causing these delays. 
 
-We will be examining the departure dates more closely in our next analysis to see if there are common times of the year when flight delays are more likely to happen.
+We will be examining the departure dates more closely in our next analysis to see if there are common times of the year when flight delays are more likely to happen. We will also compare the delays at airports, and see how much they contribute to the on-time performance of different air carriers.
+
+
+```python
+
+```
