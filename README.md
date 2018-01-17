@@ -24,3 +24,7 @@ source code for getting those files is also included.
   <li><code>00_download_market_data.py</code></li>
 </li>
 
+<b>Jupyter Notebooks</b>
+<ul>
+  <li><a href="https://github.com/aloretta/flight-project/blob/master/00_data_wrangling.md">00_data_wrangling.md</a></li>
+</ul>
