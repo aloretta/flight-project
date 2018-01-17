@@ -28,5 +28,6 @@ source code for getting those files is also included.
 <b>Jupyter Notebooks</b>
 <ul>
   <li><a href="https://github.com/aloretta/flight-project/blob/master/00_data_wrangling.md">00_data_wrangling.md</a></li>
+  <li><a href="https://github.com/aloretta/flight-project/blob/master/01_flight_data_background.md">01_flight_data_background.md</a></li>
 </ul>
 </p>
