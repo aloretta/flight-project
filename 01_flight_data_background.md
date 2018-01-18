@@ -113,7 +113,7 @@ Overall, there seems to be a strong correlation between the frequency of flights
 ### C. How often are flights delayed and when do they tend to happen?
 ### 1. Flight-delay frequency varies throughout the year, independent of the total number of flights.
 
-<img src='figures/timeseries_delays.png'>
+<img src='figures/timeseries_delays.png' align='center'>
 
 The time series data in the above figure features weekly values for (from top to bottom): the total number of outbound flights, the number of delayed flights, and the ratio of delayed flights to total flights. A flight that departed 30 minutes later than scheduled was considered a delayed flight.
 
@@ -174,8 +174,3 @@ The network of U.S. airports spans 135 airports and over 1300 unique routes, and
 Delays can be rather hard to predict, but some airline companies like Southwest Airlines and Frontier Airlines may be more prone to them. This partly depends on which routes they tend to frequent, however. Airline customer service may have some role that affect departure times, such as in their efficiency to check-in and board passengers, but these factors are in these data tables. It is more likely that local weather at an airport or the amount of air traffic per day are causing these delays. 
 
 We will be examining the departure dates more closely in our next analysis to see if there are common times of the year when flight delays are more likely to happen. We will also compare the delays at airports, and see how much they contribute to the on-time performance of different air carriers.
-
-
-```python
-
-```
