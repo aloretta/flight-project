@@ -137,7 +137,7 @@ The local maxima are somewhat periodic, and we will see whether certain times of
 ### D. How similar are different companies in flight capacity and how does this affect performance?
 ### 1. On-time efficiency of flights slightly hindered by company growth.
 
-<img src='figures/ontime_flight_volume.png'>
+<center><img src='figures/ontime_flight_volume.png'></center>
 
 Many airline companies have undergone mergers and acquisitions througohut the 16-year period, directly increasing their capacity to handle more flights. Here, we evaluate whether an increase in the size of their operations affects the overall flight departure times.
 
